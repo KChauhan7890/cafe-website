@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+  </head>
+    <style>
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: "montserrat",sans-serif;
+    }
+    .contact-section{
+
+      background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(contact.jpeg);
+      background-size: cover;
+      padding: 100px 0;
+    }
+.contact-section h1{
+  text-transform: uppercase;
+  text-align: center;
+  color: red;
+}
+.border{
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+  width: 400px;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #2980b9;
+
+}
+.main-nav
+{
+  float: right;
+  margin-top: 60px;
+}
+.main-nav li
+{
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+}
+.main-nav li a{
+color:#fff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 90%;
+font-weight: 100;
+}
+.main-nav li a:hover
+{
+  border: 1px solid white;
+}
+.row
+{
+  max-width: 1200px;
+  margin:auto;
+
+}
+footer{
+  text-align: center;
+ text color: #fff;
+
+}
+
+    </style>
+  <body>
+  <header>
+      <nav>
+        <div class="row clearfix">
+        <ul  class="main-nav">
+          <li><a href="index.html">Home </a></li>
+          <li><a href="about.html">About </a></li>
+          <li><a href="contact.html">Contact Us </a></li>
+          <li><a href="signup.html">Sign UP </a></li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="contact-section">
+<h1>contact us</h1>
+<form class="contact-form" action="index.html" method="post">
+  <input type="text" class="contact-form-text" placeholder="Your Name">
+  <input type="email" class="contact-form-text" placeholder="Your Email">
+  <input type="text" class="contact-form-text" placeholder="Your Phone">
+  <br>
+  <br>
+  <textarea class="contact-form-text" placeholder="Your Message"></textarea>
+  <input type="submit" class="contact-form-btn" value="Send">
+</form>
+</div>
+
+  </body>
+  <footer>
+  <a href="#"><img src="facebook.jpg" width="4%"></a>
+  <address>
+  Designed by <a href="mailto:kchauhan8443@icloud.com">Kapil Chauhan</a>.<br>
+  Visit us at:<br>
+  Mrpizza.com<br>
+  Box 789, New York<br>
+  USA
+  </address>
+  </footer>
+</html>
